@@ -45,6 +45,7 @@ app/pnpm-debug.log*
 
 # Editor directories and files
 .vscode
+.idea
 app/.idea
 app/.vscode
 app/*.suo

@@ -10,9 +10,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.fynd</groupId>
-	<artifactId>groot-java</artifactId>
+	<artifactId>example-extension-java-vue</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Groot Java</name>
+	<name>Example Extension Java Vue</name>
 	<description>Example java extension</description>
 	<properties>
 		<java.version>11</java.version>
