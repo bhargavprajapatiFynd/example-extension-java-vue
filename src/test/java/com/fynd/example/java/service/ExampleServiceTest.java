@@ -1,10 +1,15 @@
 package com.fynd.example.java.service;
 
-import com.fynd.extension.utils.ExtensionContext;
+import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
+import static org.mockito.ArgumentMatchers.anyInt;
+import static org.mockito.ArgumentMatchers.anyString;
+
 import com.fynd.example.java.service.impl.ExampleServiceImpl;
+import com.fynd.extension.utils.ExtensionContext;
 import com.sdk.platform.PlatformClient;
-import com.sdk.platform.PlatformService;
 import com.sdk.platform.PlatformModels;
+import com.sdk.platform.PlatformService;
+import java.io.IOException;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
@@ -12,12 +17,6 @@ import org.mockito.MockedStatic;
 import org.mockito.Mockito;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.util.ReflectionTestUtils;
-
-import java.io.IOException;
-
-import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
-import static org.mockito.ArgumentMatchers.anyInt;
-import static org.mockito.ArgumentMatchers.anyString;
 
 @SpringBootTest
 public class ExampleServiceTest {

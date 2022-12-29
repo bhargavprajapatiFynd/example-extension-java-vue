@@ -4,9 +4,8 @@ import com.fynd.example.java.service.ExampleService;
 import com.fynd.extension.utils.ExtensionContext;
 import com.sdk.platform.PlatformClient;
 import com.sdk.platform.PlatformModels;
-import org.springframework.stereotype.Service;
-
 import java.io.IOException;
+import org.springframework.stereotype.Service;
 
 @Service
 public class ExampleServiceImpl implements ExampleService {
